@@ -1,0 +1,20 @@
+.AllprojectNavWrapper{
+    /* background-color: rgba(219, 218, 219, 0.784); */
+    width: 100%;
+    /* height: 400px; */
+    /* margin-top: 30px; */
+    border-radius: 30px;
+    padding-top: 40px;
+
+   
+    font-size: 2rem;
+}
+.TabLabel{
+    font-size: 1.1rem;
+    color: white;
+}
+.tab{
+    /* background-color: aquamarine; */
+    align-items: center;
+
+}

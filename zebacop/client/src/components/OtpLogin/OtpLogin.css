@@ -1,0 +1,30 @@
+.goback_btn{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 60px;
+}
+.otp_btns{
+    background-color: rgb(80, 80, 249);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px; 
+}
+.otp_container{
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 310px;
+}
+.otp_inputs{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+.otp_error{
+    color: red;
+}

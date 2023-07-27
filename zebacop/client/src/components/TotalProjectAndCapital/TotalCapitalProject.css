@@ -1,0 +1,92 @@
+.TotalCapitalProjectWrapper{
+    /* background-color: rgba(217, 116, 116, 0.267); */
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    /* border-top: .3px solid rgba(127, 38, 230, 0.394); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .txt_totalproject_and_capital{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 60%;
+
+    background-color: antiquewhite;
+} */
+.totals_wrapper{
+    /* background-color: rgb(54, 39, 17); */
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+
+    
+}
+.totals_container{
+    background-color: rgba(10, 213, 162, 0.045);
+    border: 1px solid rgba(0, 137, 116, 0.74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    min-width: 140px;
+    min-height: 50px;
+
+    width: 70%;
+
+    padding: 10px;
+
+
+}
+
+
+.text_total{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    .totals_wrapper{
+        /* background-color: rgb(183, 137, 67); */
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    
+    
+        
+    }
+    .totals_container{
+    
+        min-width: 140px;
+        min-height: 50px;
+    
+        padding: 10px;
+
+        background-color: rgba(10, 213, 162, 0.045);
+        border: 1px solid rgba(0, 137, 116, 0.74);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    
+    
+    }
+    
+    
+    .text_total{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    /* .txt_totalproject_and_capital{
+        width: 100%;
+    } */
+
+}

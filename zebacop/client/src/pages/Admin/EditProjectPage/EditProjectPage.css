@@ -1,0 +1,9 @@
+.EditProject{
+    min-height: 100vh;
+    /* background-color: rgb(57, 57, 57); */
+    color: white;
+}
+.edit_form_wrapper{
+    max-width: 400px;
+    margin: auto;
+}

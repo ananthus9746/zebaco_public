@@ -1,0 +1,153 @@
+.card{
+    border: 1px solid rgba(0, 137, 116, 0.74);
+    /* max-width: 100%; */
+
+    max-width: 470px;
+
+    
+    background-color: rgba(2, 48, 41, 0.247);
+
+    padding: 15px;
+    border-radius: 10px;
+}
+/* .card:hover{
+    background-color: rgba(2, 48, 41, 0.247);
+    transition:all 0.9s;
+    scale: 1.02;
+} */
+
+.card_container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+/* IMAGE DISCRIPTION CONTAINER */
+.img_discrption_container{
+    /* background-color: rgb(64, 93, 93); */
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.pro_img{
+    min-width: 80px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+#project_name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition:all 0.5s;
+    cursor: pointer;
+    color: white;
+
+}
+#project_name:hover{
+    color: rgb(8, 133, 108);
+}
+.status_started{
+
+    background-color: rgb(5, 181, 155);
+
+    width: fit-content;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: .7rem; 
+    color: white;
+}
+.status{
+    background-color: rgba(10, 165, 203, 0.61);
+    width: fit-content;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: .7rem;
+    color: rgb(196, 193, 193);
+
+}
+.dicription{
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+/* TOTAL RISE AND PUBLIC OR PRIVATE CONTAINER */
+.total_rice_container{
+    background-color: rgba(2, 62, 53, 0.777);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: .8rem;
+}
+.total_raise_amount{
+    
+margin: 0px;
+padding: 0px;
+color: #ffffff;
+}
+
+.knomore_btn{
+    background-color: rgba(13, 209, 180, 0.815);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+.ant-progress-bg {
+    height: 12px !important;
+}
+
+.public_or_private{
+color: rgb(204, 203, 204);
+font-weight: bold;
+}
+.progrss_bar{
+    border-radius: 5px;
+
+}
+.raised_wapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    font-weight: 700;
+    color: rgb(230, 230, 230);
+    background-color: rgba(2, 63, 70, 0.562);
+    border-radius: 7px;
+    padding: 5px;
+    font-size: .8rem;
+}
+.socia_links_and_status{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: .8rem;
+    color: rgb(212, 212, 212);
+
+}
+
+
+.card_social_links{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    color: rgb(209, 237, 239);
+    cursor: pointer;
+}
+.card_socail_links:hover{
+    color: rgb(22, 220, 234);
+    transition:all 0.5s;
+
+
+}

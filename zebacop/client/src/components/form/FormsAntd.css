@@ -1,0 +1,16 @@
+.FormsAntd{
+   background-color: rgb(250, 250, 250);
+   padding: 20px;
+
+   width: 100%;
+
+}
+.Form_FormsAntd{
+   max-width: 400px;
+   margin: auto;
+
+}
+.Eroor{
+   color: red;
+   
+}

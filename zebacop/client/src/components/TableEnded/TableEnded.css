@@ -1,0 +1,9 @@
+.TableEndedWrapper{
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}

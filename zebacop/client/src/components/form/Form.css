@@ -1,0 +1,113 @@
+.form_wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* line-height: 35px; */
+    width: 100%;
+    max-width: 700px;
+
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    /* background-color: rgb(51, 54, 54); */
+
+}
+
+.form_container textarea {
+    background-color: rgb(222, 222, 222);
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+
+.radio_btn{
+    /* background-color: rgb(71, 42, 4); */
+    /* height: 20px;
+   
+   
+
+    height: 20px;
+    margin-bottom: -50px; */
+}
+
+.form_inputs_container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.radio_container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(0, 255, 106); */
+    justify-content: center;
+    
+}
+
+
+
+.form_input {
+    /* width: 70%; */
+    border-radius: 8px;
+    background-color: rgb(222, 222, 222);
+    color: black;
+    padding: 10px;
+}
+.input{
+    border:1px solid black;
+    color: black;
+}
+.input_other {
+    /* font-size: 15px;
+    color: #ffffff;
+    width: 300px;
+    border: none;
+    border-bottom: solid #aaaaaa 1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+    background: none;
+    z-index: 5;
+    height: 1px; */
+
+    margin-bottom: 16px;
+
+    border-radius: 8px;
+    background-color: rgb(222, 222, 222);
+    color: black;
+    padding: 10px;
+}
+.reqired-field{
+    color: red;
+    font-size: .9rem;
+}
+.form_submit {
+    color: white;
+    background: rgb(8, 8, 102);
+    background: linear-gradient(90deg, rgb(58, 8, 102) 24%, rgb(76, 50, 207) 100%);
+    border: none;
+    border-radius: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    transition: 0.3s;
+}
+.form_submit:hover{
+    background: rgb(8,8,102);
+   background: linear-gradient(90deg, rgba(8,8,102,1) 24%, rgb(129, 50, 207) 100%);
+   scale: 1.04;
+   
+   }

@@ -1,0 +1,25 @@
+.AddPartnersPageWrapper{
+    min-height: 100vh;
+    /* background-color: rgb(126, 103, 103); */
+    padding: 10px;
+}
+.add_partners{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.add_patner{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.add_patner:active{
+    background-color:rgb(5, 81, 5);
+}
+.submit_partner{
+    background-color:rgb(5, 81, 5);
+
+}

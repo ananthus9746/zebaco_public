@@ -1,0 +1,18 @@
+.SupportServicePage_Wrapper {
+    color: white;
+    padding: 20px;
+
+    /* margin-top: -60px; */
+    /* min-height: 100vh; */
+
+    /* background: linear-gradient(300deg, rgba(8, 8, 102, 0.219) 17%, rgba(3, 17, 97, 0.281) 82%); */
+    background: linear-gradient(300deg, rgba(1, 31, 27, 0.253) 17%, rgba(12, 97, 86, 0.226) 82%);
+}
+.SupportServicePage_Wrapper_heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.services_txt{
+    /* color: rgb(9, 152, 162); */
+}

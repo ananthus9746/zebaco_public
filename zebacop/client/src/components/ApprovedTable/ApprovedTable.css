@@ -1,0 +1,9 @@
+.ApprovedTableWrapper{
+    /* background-color: rgb(255, 255, 255); */
+    height: 100vh;
+    /* width: 80%; */
+    overflow-y:scroll; 
+    position:relative; 
+    padding: 10px;
+ 
+}

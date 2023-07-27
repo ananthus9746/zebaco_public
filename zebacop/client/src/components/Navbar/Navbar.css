@@ -1,0 +1,95 @@
+.nav_wrapper{
+    z-index: 100;   
+}
+.user_nav {
+    /* background-color: rgb(8, 1, 22); */
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    color: white;
+    font-size: 1rem;
+    
+    align-items: center;
+    padding: 20px;
+    z-index: 100;
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(60px) saturate(200%);
+    /* background-color: rgba(17, 25, 40, 0.69); */
+
+    background: linear-gradient(300deg,rgba(4, 89, 78, 0.223)  17%,rgba(12, 97, 86, 0.223)  82%);
+
+
+    height: 70px;
+}
+.company_logo{
+    width: 150px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.nav_links {
+    display: flex;
+    gap: 40px
+}
+
+
+.active {
+    color: rgba(5, 181, 137, 0.89);
+}
+
+.inactive {
+    color: rgb(255, 255, 255);
+}
+
+.wllet_btn {
+    color: white;
+    /* background-color: black; */
+    background: linear-gradient(300deg,rgba(30, 35, 34, 0.63) 17%,rgba(12, 97, 86, 0.226)  82%);
+
+    border: 1px solid rgb(47, 138, 106);
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 9px;
+    font-size: .7rem;
+    transition: 0.3s;
+
+}
+
+.wllet_btn:hover {
+    background: rgb(8, 8, 102);
+    background: linear-gradient(300deg,rgba(3, 82, 71, 0.63) 17%,rgba(24, 216, 190, 0.226)  82%);
+    border: 1px solid rgb(143, 250, 225);
+}
+
+@media (max-width: 700px) {
+    .nav_links{
+        gap: 10px;
+        font-size: 10px;
+    }
+    .wllet_btn {
+        padding: 5px;
+        font-size: .6rem;
+        transition: 0.3s;
+    }
+    .company_logo{
+        width: 100px;
+        padding: 0px;
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+  
+
+    .user_nav {
+        /* background-color: rgb(8, 1, 22); */
+        display: flex;
+        justify-content: space-between;
+        /* max-width: 1200px; */
+        color: white;
+        font-size: 1rem;
+        
+        align-items: center;
+        padding: 20px;
+        z-index: 100;
+      
+        height: 60px;
+    }
+}

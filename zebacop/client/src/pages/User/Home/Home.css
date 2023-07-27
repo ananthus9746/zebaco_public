@@ -1,0 +1,250 @@
+
+
+
+
+/* .Spline_container{
+    background-color: rgb(85, 84, 83);
+    position: relative;
+    margin-bottom: 100px;
+    height: 600px;
+    width: 100%;
+} */
+
+
+
+.home{
+    /* background-color: rgba(33, 1, 40, 0.168); */
+    /* max-width: 1200px; */
+    color: white;
+    padding: 20px;
+
+    /* margin-top: -60px; */
+    min-height: 100vh;
+
+/* background: linear-gradient(300deg, rgba(8, 8, 102, 0.219) 17%, rgba(3, 17, 97, 0.281) 82%); */
+background: linear-gradient(300deg,rgba(1, 31, 27, 0.253) 17%,rgba(12, 97, 86, 0.226)  82%);
+
+
+}
+.text_heading_wapper{
+    /* background-color: rgba(66, 39, 4, 0.247); */
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    /* padding-left: 50x;
+    padding-right: 50px; */
+    margin-bottom: 40px;
+
+    width: 100%;
+
+    /* position: absolute;
+    top: 0; */
+
+
+}
+.tex_container{
+    width: 85%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(26, 59, 5); */
+
+   
+
+}
+.text_launch{
+/* color:rgb(143,36,143); */
+color:rgb(33,175,156);
+}
+.text_box{
+font-weight: 200;
+/* color:rgb(143,36,143); */
+color:rgb(33,175,156);
+
+}
+.txt_main{
+    font-size: 4rem;
+    font-weight: 700;
+    /* background-color: aqua; */
+    /* max-width: 80%; */
+    
+}
+.txt_sub{
+    color: rgb(95, 94, 94);
+    margin-top: 30px;
+}
+.apply_btn_container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.btn_explore{
+    color: white;
+    background: rgb(8,8,102);
+
+    /* background: linear-gradient(90deg, rgba(8,8,102,1) 24%, rgba(178,50,207,1) 100%); */
+    background: linear-gradient(300deg,rgba(9, 136, 119, 0.63) 17%,rgba(12, 97, 86, 0.226)  82%);
+
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 13px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    cursor: pointer;
+
+    width: 150px;
+}
+
+.btn_apply{
+    color: white;
+    /* background-color: black;
+    border: 1px solid white; */
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 1.3rem;
+
+     cursor: pointer;
+    width: 150px;
+
+    /* background: linear-gradient(-75deg,  #673ce782, #893ce782, #c83ce782,  #8523d5bc); */
+    background: linear-gradient(-75deg,rgba(9, 136, 119, 0.63),rgba(2, 87, 62, 0.908) 17%,rgba(12, 97, 86, 0.226)  82%);
+
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+
+}
+.btn_apply:hover{
+ /* background: rgb(8,8,102); */
+/* background: linear-gradient(90deg, rgba(8,8,102,1) 24%, rgb(129, 50, 207) 100%); */
+border: 1px solid rgb(18, 174, 135);
+    transition:all 0.5s;
+
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media only screen and (max-width: 670px) {
+   .txt_main{
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project_wrapper{
+    /* background-color: rgb(13, 88, 88); */
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+
+.small_slider{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* 
+.main_image_and_gradient {
+    width: 100vw;
+    height: 20vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee76524f, #e73c7e69, #23a5d54b, #23d5ab56);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+
+    position: relative;
+
+    left: 0;
+    right: 0;
+
+
+}
+.imagediv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    background: rgba(255, 255, 255, 0.151);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+
+   */

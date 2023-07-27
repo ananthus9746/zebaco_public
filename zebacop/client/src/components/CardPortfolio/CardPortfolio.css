@@ -1,0 +1,20 @@
+.cardPortfolio{
+    width: 150px;
+    height: 130px;
+    overflow: hidden;
+
+
+
+    /* background-color: rgba(34, 36, 36, 0.767); */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.protfolio_img{
+    width: 100%;
+    min-height: 100%;
+
+}

@@ -1,0 +1,72 @@
+.subBanner{
+    width: 100%;
+    background-color: rgba(2, 94, 80, 0.12);
+    margin-top: 70px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 1px solid rgba(3, 155, 64, 0.291);
+
+    /* background-image:
+    linear-gradient(180deg, rgb(13, 101, 115) 6%, rgba(3, 77, 85, 0.836) 90%, rgba(0,0,0,1) 100%), url(
+        '../../images/pawel-czerwinski-PvgqqicSLvA-unsplash.jpg'); */
+
+    /* background-image:url( '../../images/aron-visuals-bZZp1PmHI0E-unsplash.jpg'); */
+    /* background-image:url( '../../images/dimitris-skaronis-SoH7LS3RfgI-unsplash.jpg'); */
+
+
+
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+    background-blend-mode:multiply ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+}
+.subBanner_banner_div{
+    max-width: 80%;
+
+    /* background-color: aqua; */
+}
+.subBanner_heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.subBanner_para{
+    color: #d1d1d1;
+    margin-bottom: 10px;
+}
+.subBanner_apply_now{
+    color: white;
+
+    margin-top: 20px;
+
+    background: linear-gradient(300deg,rgba(48, 187, 168, 0.545) 17%,rgba(12, 97, 86, 0.966)  82%);
+    border: 2px solid green;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    cursor: pointer;
+
+    width: 170px;
+}
+
+
+@media only screen and (max-width: 670px) {
+    .subBanner_heading{
+        font-size: 1.5rem;
+     }
+     .subBanner{
+        padding: 30px;
+    }
+ }
+ 

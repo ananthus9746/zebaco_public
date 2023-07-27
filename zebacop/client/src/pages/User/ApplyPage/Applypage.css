@@ -1,0 +1,9 @@
+.apply{
+    background: linear-gradient(300deg,rgba(1, 31, 27, 0.253) 17%,rgba(12, 97, 86, 0.226)  82%);
+    /* height: 100vh; */
+    /* max-width: 1200px; */
+    color: white;
+
+    min-height: 100vh;
+    
+}

@@ -1,0 +1,147 @@
+.ProjectDetailsContainerWrapper{
+    background-color: rgba(124, 127, 127, 0.12);
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+
+    border: 1px solid rgba(0, 137, 116, 0.373);
+
+}
+.details_image_name{
+    /* background-color: rgb(47, 45, 45); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail_img{
+    width: 220px;
+    border-radius: 5px;
+}
+.detail_status{
+margin-top: 20px;
+}
+.detail_name{
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: rgb(225, 225, 225);
+}
+.detal_text_status{
+    font-weight: 700px;
+}
+
+.detail_status_started{
+    background-color: rgba(0, 255, 195, 0.805);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 75px;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.detail_status_ended{
+    background-color: rgba(17, 156, 138, 0.61);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    width: 75px;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+
+    color: rgb(222, 222, 222);
+}
+.detail_discription{
+    margin-top: 40px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+}
+.details_date{
+    margin-top: 20px;
+    color: rgb(203, 203, 203);
+
+    font-size: 1.2rem;
+
+}
+
+.details_social_links{
+ display: flex;
+ gap: 50px;
+ margin-top: 40px;
+ font-size: 2rem;
+ color: #e2f9f4b1;
+}
+.social_link:hover{
+    color: rgba(2, 240, 192, 0.825);
+ 
+}
+
+.detail_connectWallet_btn_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.detail_connect_wallet_btn{
+    border: 3px solid rgb(8, 213, 186);
+    padding: 7px;
+    /* text-shadow: 0 0px 10px #1affcd; */
+    color: rgb(36, 233, 151);
+    font-size: 1rem;
+    /* box-shadow: 0 0 20px rgb(0, 255, 238); */
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    
+}
+
+.detail_connect_wallet_btn:hover{
+    box-shadow: 0 0 20px rgb(0, 229, 255);
+    text-shadow: 0 0px 20px #1afff0;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .details_image_name{
+        /* background-color: rgb(224, 86, 86); */
+        flex-direction: column;
+
+   }
+   .detail_img_container{
+    /* background-color: #fb1aff; */
+    height: 200px;
+  width: 100%;
+
+
+   }
+    .detail_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+
+
+
+
+
+
+
+
+    .detail_name{
+        font-size: 2.3rem;
+        text-align: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .detail_discription{
+        margin-top: 20px;
+        font-size: 1.2rem;
+       
+        line-height: 30px;
+    }
+
+}
